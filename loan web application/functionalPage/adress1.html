@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form | webdevtrick.com</title>
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+      <link rel="stylesheet" href="style.css">
+ 
+  
+</head>
+ 
+<body>
+ 
+  <div class="row">
+  <section class="section">
+    <header>
+      <h3>About You</h3>
+      <h4>Lets get started by learning a little more about you</h4>
+
+    </header>
+    <main>
+      <form>
+      
+              <div class="panel-body">
+                <input id="autocomplete" placeholder="Enter your address" onFocus="geolocate()" type="text" class="form-control">
+                <div id="address">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label class="control-label">Street address</label>
+                      <input class="form-control" id="street_number" disabled="true">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="control-label">Route</label>
+                      <input class="form-control" id="route" disabled="true">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label class="control-label">City</label>
+                      <input class="form-control field" id="locality" disabled="true">
+                    </div>
+                    <div class="col-md-6"> 
+                      <label class="control-label">State</label>
+                      <input class="form-control" id="administrative_area_level_1" disabled="true">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label class="control-label">Pincode</label>
+                      <input class="form-control" id="postal_code" disabled="true">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="control-label">Country</label>
+                      <input class="form-control" id="country" disabled="true">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&libraries=places&callback=initAutocomplete" async defer></script>
+      
+
+       
+           
+      </form>
+      <button class="btn">
+        <a href="file:///E:/Projects/loan%20web%20application/functionalPage/dependent.html">
+          Continue </a></button>
+
+    </main>
+    
+  
+
+    <footer>
+      <p>Contact us? +91 1234567891</p>
+    </footer>
+    <i class="wave"></i>
+  </section>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+  
+ 
+    <script  src="function_1.js"></script>
+ 
+ 
+ 
+ 
+</body>
+ 
+</html>
